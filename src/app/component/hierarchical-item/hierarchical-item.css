@@ -1,0 +1,8 @@
+.unorderedList{
+    list-style-type: none;
+}
+
+.each-item{
+    display: flex;
+    margin: 6px;
+}

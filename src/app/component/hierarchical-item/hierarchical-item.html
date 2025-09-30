@@ -1,0 +1,9 @@
+<div>
+    {{root}}
+    <ul class="unorderedList" *ngIf="tree[root] && tree[root].length > 0">
+       <li *ngFor="let child of tree[root]">
+          <span class="each-item">- <app-hierarchical-item [root]="child" [tree]="tree"></app-hierarchical-item></span> 
+        </li>
+        
+    </ul>
+</div>
